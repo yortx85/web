@@ -40,7 +40,6 @@ def submit_form():
         return 'nothing submitted'
 
 
-
 @app.errorhandler(404)
 def not_found(e):
     return render_template("404.html")
