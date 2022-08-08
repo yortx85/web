@@ -37,7 +37,7 @@ def submit_form():
         print(data)
         return 'se ha enviado la información'
     else:
-        return 'nothing submitted'
+        return 'no se ha enviado ninguna modificación'
 
 
 @app.errorhandler(404)
