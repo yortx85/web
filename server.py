@@ -35,9 +35,9 @@ def submit_form():
     if request.method == 'POST':
         data = request.form.to_dict()
         print(data)
-        return 'form submitted'
+        return 'se ha enviado la información'
     else:
-        return 'nothing submitted'
+        return 'no se ha enviado ninguna modificación'
 
 
 @app.errorhandler(404)
